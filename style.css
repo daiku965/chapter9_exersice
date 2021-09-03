@@ -4,3 +4,58 @@
   box-sizing: border-box;
 }
 
+header {
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main {
+  display: flex;
+  width: 960px;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+
+.main-content {
+  width: 300px;
+  margin: 0 15px;
+  padding: 10px;
+  position: relative;
+  background-color: #eeeeee;
+}
+
+.step {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  background-color: #ff9a4b;
+}
+
+.common-step-image {
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.step1-image {
+  background-image: url(img/flow01.png);
+}
+
+.step2-image {
+  background-image: url(img/flow02.png);
+}
+
+.step3-image {
+  background-image: url(img/flow03.png);
+}
+
+.step-heading {
+  padding: 15px 0 5px;
+}
+
+footer {
+  height: 50px;
+  background-color: #aaaaaa;
+}
